@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+  }
+  /*formatação do header*/
+ header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: linear-gradient(#E8E8E8 16.65% , #000000 85.61% );
+ }
+header h1 {
+  font-family:  'Alice ', serif;
+  /*color: antiquewhite;
+  font-size: 90px;*/
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+  font-size: 90px;
+  padding: 8px 16px;
+  font-weight:100px;
+
+}
+#button{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: rgb(17, 18, 20);
+    border-radius:10px;
+}
+/*formatação do conteudo*/
+.texto{
+  width: 600px;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: #3c3838;
+  color: #f1f0f0;
+}
+.gradedeproduto{
+  display: flex;
+  justify-content: space-between;
+  align-items:end;
+  color: #E8E8E8;
+  
+}
+.gradedeproduto2{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items: end;
+  color: #E8E8E8;
+}
+.h2{
+  font-size: 100px;
+  font-family: 'Pacifico', sans-serif;
+}
+.conteudo{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #000000ed;
+}
+.conteudo2{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #000000ed;
+}
+#contato {
+  height: 250px;
+  background: linear-gradient(#e0dada 16.62%, #161515 85.63% );
+}
+#contato>h2 {
+  font-family: 'Pacifico', sans-serif;
+  color: #181616;
+  font-size: 30px;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome>input {
+  width: 200px;
+  height: 20px;
+}
+
+.email>input {
+  width: 150px;
+  height: 20px;
+}
+.enviar {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+footer>picture {
+  color: #bfb6b6;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60%;
+  padding: 10px;
+  text-align: center;
+  background-color: #131212;
+  color: rgb(244, 240, 240);
+}
